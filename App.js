@@ -1,15 +1,7 @@
-// import { StatusBar } from 'expo-status-bar';
 import React, { useState } from "react";
-import {
-  StyleSheet,
-  Text,
-  View,
-  SafeAreaView,
-  FlatList,
-  Alert,
-} from "react-native";
-// import * as Font from "expo-font";
-import { AppLoading } from "expo";
+import { StyleSheet, View, Alert } from "react-native";
+import * as Font from "expo-font";
+import AppLoading from "expo-app-loading";
 import { Navbar } from "./src/components/Navbar";
 import { MainScreen } from "./src/screens/MainScreen";
 import { TodoScreen } from "./src/screens/TodoScreen";
